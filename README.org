@@ -1,7 +1,6 @@
 * Bigblow
 
-#+begin_src org 
-# -*- mode: org; -*-
+
 
 ,#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="styles/bigblow/css/htmlize.css"/>
 ,#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="styles/bigblow/css/bigblow.css"/>
@@ -16,18 +15,31 @@
 ,#+HTML_HEAD: <script type="text/javascript" src="styles/bigblow/js/bigblow.js"></script>
 ,#+HTML_HEAD: <script type="text/javascript" src="styles/bigblow/js/hideshow.js"></script>
 ,#+HTML_HEAD: <script type="text/javascript" src="styles/lib/js/jquery.stickytableheaders.min.js"></script>
-#+end_src
+
+#+BEGIN_EXPORT html
+<link rel="stylesheet" type="text/css" href="styles/bigblow/css/htmlize.css"/>
+<link rel="stylesheet" type="text/css" href="styles/bigblow/css/bigblow.css"/>
+<link rel="stylesheet" type="text/css" href="styles/bigblow/css/hideshow.css"/>
+
+<script type="text/javascript" src="styles/bigblow/js/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="styles/bigblow/js/jquery-ui-1.10.2.min.js"></script>
+
+<script type="text/javascript" src="styles/bigblow/js/jquery.localscroll-min.js"></script>
+<script type="text/javascript" src="styles/bigblow/js/jquery.scrollTo-1.4.3.1-min.js"></script>
+<script type="text/javascript" src="styles/bigblow/js/jquery.zclip.min.js"></script>
+<script type="text/javascript" src="styles/bigblow/js/bigblow.js"></script>
+<script type="text/javascript" src="styles/bigblow/js/hideshow.js"></script>
+<script type="text/javascript" src="styles/lib/js/jquery.stickytableheaders.min.js"></script>
+#+END_EXPORT
+
 
 * ReadTheOrg
 
-#+begin_src org 
-# -*- mode: org; -*-
-
-,#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="styles/readtheorg/css/htmlize.css"/>
-,#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="styles/readtheorg/css/readtheorg.css"/>
-
-,#+HTML_HEAD: <script type="text/javascript" src="styles/readtheorg/js/jquery.min.js"></script>
-,#+HTML_HEAD: <script type="text/javascript" src="styles/readtheorg/js/bootstrap.min.js"></script>
-,#+HTML_HEAD: <script type="text/javascript" src="styles/lib/js/jquery.stickytableheaders.min.js"></script>
-,#+HTML_HEAD: <script type="text/javascript" src="styles/readtheorg/js/readtheorg.js"></script>
-#+end_src
+#+BEGIN_EXPORT html
+<link rel='stylesheet' type='text/css' href='styles/readtheorg/css/htmlize.css'/>
+<link rel='stylesheet' type='text/css' href='styles/readtheorg/css/readtheorg.css'/>
+<script type='text/javascript' src='styles/readtheorg/js/jquery.min.js'></script>
+<script type='text/javascript' src='styles/readtheorg/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='styles/lib/js/jquery.stickytableheaders.min.js'></script>
+<script type='text/javascript' src='styles/readtheorg/js/readtheorg.js'></script>
+#+END_EXPORT
