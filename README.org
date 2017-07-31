@@ -1,7 +1,26 @@
+#+title: 配置方案
+#+author: ZucchiniY
+#+date: [2017-07-31 一 17:09]
+#+OPTIONS: toc:2 num:nil H:4 ^:nil
+
+#+BEGIN_EXPORT html
+<link rel='stylesheet' type='text/css' href='styles/readtheorg/css/htmlize.css'/>
+<link rel='stylesheet' type='text/css' href='styles/readtheorg/css/readtheorg.css'/>
+<script type='text/javascript' src='styles/readtheorg/js/jquery.min.js'></script>
+<script type='text/javascript' src='styles/readtheorg/js/bootstrap.min.js'></script>
+<script type='text/javascript' src='styles/lib/js/jquery.stickytableheaders.min.js'></script>
+<script type='text/javascript' src='styles/readtheorg/js/readtheorg.js'></script>
+#+END_EXPORT
+
+* 更新方案
+可以使用三种方式进行设置
+1. *#+BEGIN_EXPORT html ... #+END_EXPORT*
+2. *#+BEGIN_HTML ... #+END_HTML*
+3. *#+HTML_HEAD:*
+
 * Bigblow
 
-#+BEGIN_example
-#+BEGIN_EXPORT html
+#+BEGIN_EXAMPLE
 <link rel="stylesheet" type="text/css" href="styles/bigblow/css/htmlize.css"/>
 <link rel="stylesheet" type="text/css" href="styles/bigblow/css/bigblow.css"/>
 <link rel="stylesheet" type="text/css" href="styles/bigblow/css/hideshow.css"/>
@@ -15,18 +34,15 @@
 <script type="text/javascript" src="styles/bigblow/js/bigblow.js"></script>
 <script type="text/javascript" src="styles/bigblow/js/hideshow.js"></script>
 <script type="text/javascript" src="styles/lib/js/jquery.stickytableheaders.min.js"></script>
-#+END_example
-
+#+END_EXAMPLE
 
 * ReadTheOrg
 
-#+BEGIN_example
-#+BEGIN_EXPORT html
+#+BEGIN_EXAMPLE
 <link rel='stylesheet' type='text/css' href='styles/readtheorg/css/htmlize.css'/>
 <link rel='stylesheet' type='text/css' href='styles/readtheorg/css/readtheorg.css'/>
 <script type='text/javascript' src='styles/readtheorg/js/jquery.min.js'></script>
 <script type='text/javascript' src='styles/readtheorg/js/bootstrap.min.js'></script>
 <script type='text/javascript' src='styles/lib/js/jquery.stickytableheaders.min.js'></script>
 <script type='text/javascript' src='styles/readtheorg/js/readtheorg.js'></script>
-#+END_EXPORT
-#+END_example
+#+END_EXAMPLE
